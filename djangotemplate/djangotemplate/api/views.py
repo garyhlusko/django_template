@@ -1,7 +1,7 @@
 
 from rest_framework.views import APIView
-from usermanagement.models import Author
-from usermanagement.api.serializers import AuthorSerializer
+from djangotemplate.models import Author
+from djangotemplate.api.serializers import AuthorSerializer
 from rest_framework.decorators import action
 from rest_framework.response import Response
 
